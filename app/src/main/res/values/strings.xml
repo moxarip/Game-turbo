@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">GameCore Pro HUD</string>
+    <string name="hud_status_running">HUD Active</string>
+    <string name="hud_status_stopped">HUD Inactive</string>
+    <string name="btn_start_hud">Start HUD</string>
+    <string name="btn_stop_hud">Stop HUD</string>
+    <string name="title_gaming_overlay">Gaming Performance Overlay</string>
+    <string name="desc_target_device">Optimized for Xiaomi 11T Pro • Snapdragon 888 • Android 14</string>
+    
+    <!-- HUD Metric Labels -->
+    <string name="metric_fps">FPS</string>
+    <string name="metric_hz">Display Hz</string>
+    <string name="metric_bat">Battery</string>
+    <string name="metric_bat_temp">Bat Temp</string>
+    <string name="metric_cpu_temp">CPU Temp</string>
+    <string name="metric_cpu_usage">CPU</string>
+    <string name="metric_ram">RAM</string>
+    <string name="metric_thermal_status">Thermal</string>
+    
+    <!-- Presets -->
+    <string name="preset_mini">Mini</string>
+    <string name="preset_gaming">Gaming</string>
+    <string name="preset_advanced">Advanced</string>
+    
+    <!-- Notification -->
+    <string name="notification_channel_name">GameCore HUD Monitor</string>
+    <string name="notification_channel_desc">Active gaming telemetry and overlay controls</string>
+    <string name="notification_title">GameCore Pro HUD Active</string>
+    <string name="notification_content">Monitoring live FPS, thermal, battery and RAM</string>
+    <string name="notification_action_stop">Stop HUD</string>
+    <string name="notification_action_settings">Settings</string>
+</resources>

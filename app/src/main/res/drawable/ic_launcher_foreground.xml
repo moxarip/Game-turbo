@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer HUD Reticle Ring Segments -->
+    <path
+        android:pathData="M 33,54 A 21,21 0 0,1 54,33"
+        android:strokeColor="#00E676"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M 75,54 A 21,21 0 0,1 54,75"
+        android:strokeColor="#00E676"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M 54,33 A 21,21 0 0,1 75,54"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M 54,75 A 21,21 0 0,1 33,54"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round" />
+
+    <!-- Corner HUD brackets within safe area (x:27..81, y:27..81) -->
+    <path
+        android:pathData="M 28,38 L 28,28 L 38,28"
+        android:strokeColor="#00E676"
+        android:strokeWidth="2.2"
+        android:strokeLineCap="square" />
+    <path
+        android:pathData="M 80,38 L 80,28 L 70,28"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="2.2"
+        android:strokeLineCap="square" />
+    <path
+        android:pathData="M 28,70 L 28,80 L 38,80"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="2.2"
+        android:strokeLineCap="square" />
+    <path
+        android:pathData="M 80,70 L 80,80 L 70,80"
+        android:strokeColor="#00E676"
+        android:strokeWidth="2.2"
+        android:strokeLineCap="square" />
+
+    <!-- Central Gaming Core Hexagon -->
+    <path
+        android:pathData="M 54,39 L 66,46 L 66,62 L 54,69 L 42,62 L 42,46 Z"
+        android:strokeColor="#00E676"
+        android:strokeWidth="1.8">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="42"
+                android:startY="39"
+                android:endX="66"
+                android:endY="69"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#3300E676" />
+                <item android:offset="1.0" android:color="#2200E5FF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Inner Core Crosshair & Telemetry Pulse Center -->
+    <path
+        android:pathData="M 50,54 L 58,54 M 54,50 L 54,58"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.0"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M 54,52 A 2,2 0 1,1 54,56 A 2,2 0 1,1 54,52"
+        android:fillColor="#00E676" />
+
+    <!-- Tachometer / Performance tick marks -->
+    <path
+        android:pathData="M 47,26 L 47,30 M 61,26 L 61,30 M 82,47 L 78,47 M 82,61 L 78,61"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round" />
+</vector>
